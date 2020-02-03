@@ -15,10 +15,6 @@ func TestIsOnTheCurve(t *testing.T) {
 	ok := Init()
 	assert.Equal(t, ok, true)
 
-	//	ok = IsOnTheCurve(gx, gy)
-	//	assert.Equal(t, ok, true)
-	//
-	//	// 1E99423A4ED27608A15A2616A2B0E9E52CED330AC530EDCC32C8FFC6A526AEDD
 	x := gx
 	y := gy
 
